@@ -10,4 +10,4 @@ EXPOSE 8080
 
 COPY --from=build /target/uniconnect.jar uniconnect.jar
 
-ENTRYPOINT [ "java", "-jar", "uniconnect.jar" ]
+ENTRYPOINT [ "java", "-jar", "uniconnect-0.0.1-SNAPSHOT.jar" ]
