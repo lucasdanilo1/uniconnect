@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Cadastro do Projeto</title>
+</head>
+<body>
+
+    <h2>Formulário de Cadastro do Projeto</h2>
+
+    <form action="processar_cadastro_projeto.php" method="post">
+        <label for="nomeProjeto">Nome do projeto:</label><br>
+        <input type="text" id="nomeProjeto" name="nomeProjeto" required><br>
+
+        <label for="telefoneContato">Telefone para contato do projeto:</label><br>
+        <input type="tel" id="telefoneContato" name="telefoneContato" required><br>
+
+        <label for="responsavelProjeto">Nome do responsável pelo projeto:</label><br>
+        <input type="text" id="responsavelProjeto" name="responsavelProjeto" required><br>
+
+        <label for="telefoneResponsavel">Telefone do responsável pelo projeto:</label><br>
+        <input type="tel" id="telefoneResponsavel" name="telefoneResponsavel" required><br>
+
+        <label for="emailResponsavel">Email do responsável pelo projeto:</label><br>
+        <input type="email" id="emailResponsavel" name="emailResponsavel" required><br>
+
+        <label for="dataNascimentoResponsavel">Data de nascimento do responsável:</label><br>
+        <input type="date" id="dataNascimentoResponsavel" name="dataNascimentoResponsavel" required><br>
+
+        <label for="qtdVoluntarios">Quantidade de voluntários necessário para essa ação:</label><br>
+        <input type="number" id="qtdVoluntarios" name="qtdVoluntarios" required><br>
+
+        <label for="publicoAlvo">Público alvo:</label><br>
+        <input type="text" id="publicoAlvo" name="publicoAlvo" required><br>
+
+        <label for="duracaoAcao">Qual o tempo de duração da ação social:</label><br>
+        <input type="text" id="duracaoAcao" name="duracaoAcao" required><br>
+
+        <label for="datasHorarios">Datas e horários da realização do projeto:</label><br>
+        <textarea id="datasHorarios" name="datasHorarios" rows="4" required></textarea><br>
+
+        <input type="submit" value="Cadastrar Projeto">
+    </form>
+
+
+</body>
+</html>

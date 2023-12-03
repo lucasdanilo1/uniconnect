@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro do Voluntário</title>
+</head>
+<body>
+
+    <h2>Cadastro do Voluntário</h2>
+
+    <form action="processar_cadastro_voluntario.php" method="post">
+        <label for="nomeCompleto">Nome completo:</label>
+        <br>
+        <input type="text" id="nomeCompleto" name="nomeCompleto" required>
+        <br>
+
+        <label for="idade">Idade:</label>
+        <br>
+        <input type="number" id="idade" name="idade" required>
+        <br>
+
+        <label for="sexo">Sexo:</label>
+        <br>
+        <select id="sexo" name="sexo" required>
+            <option value="masculino">Masculino</option>
+            <option value="feminino">Feminino</option>
+            <option value="outro">Outro</option>
+        </select>
+        <br>
+
+        <label for="email">Email:</label>
+        <br>
+        <input type="email" id="email" name="email" required>
+        <br>
+
+        <label for="telefone">Telefone:</label>
+        <br>
+        <input type="tel" id="telefone" name="telefone" required>
+        <br>
+
+        <label for="disponibilidade">Qual sua disponibilidade de horário para realizar as ações?</label>
+        <br>
+        <input type="text" id="disponibilidade" name="disponibilidade" required>
+        <br>
+
+        <label for="areaAtuacao">Qual área você gostaria de atuar?</label>
+        <br>
+        <input type="text" id="areaAtuacao" name="areaAtuacao" required>
+        <br>
+
+        <label for="participacaoAnterior">Você já participou de outros projetos voluntários antes?</label>
+        <br>
+        <select id="participacaoAnterior" name="participacaoAnterior" required>
+            <option value="sim">Sim</option>
+            <option value="nao">Não</option>
+        </select>
+        <br>
+
+        <input type="submit" value="Cadastrar Voluntário">
+    </form>
+
+</body>
+</html>

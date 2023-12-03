@@ -1,0 +1,186 @@
+@charset "UFT-8";
+
+header{
+    background-color: #1a1a4d;
+    height: 80px;
+    width: auto;
+    margin:-8px -8px 10px -8px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+}
+a{
+    text-decoration: none;
+}
+a:visited{
+    color: white;
+}
+.menu{
+    height: 50px;
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+}
+.titulo{
+    height: 80px;
+    width: 292;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    align-items: center;
+    justify-content: flex-start;
+    left: 10px;
+    right: 10px;
+}
+img{
+    height: 60px;
+}
+.maincontainer{
+    position: relative;
+    height: 512px;
+    width: auto;
+}
+.parte1{
+    top:14px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    justify-content: space-evenly;
+    position: relative;
+   
+}
+.parte2{
+    top:14px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    justify-content: space-evenly;
+    margin-top: 20px;
+    position: relative;
+   
+}
+.container{
+    background-color: #e1d8d849;
+    width: 219.8px;
+    height: 224px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    justify-content: space-evenly;
+    align-items: center;
+   position:relative;
+    
+}
+h2{
+    position: relative;
+    margin-top: -4px;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 21px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 0px;
+}
+.butaosaibamais{
+    height: 25px;
+    width: 150px;
+    background-color: #1a1a4d;
+    color:white;
+    padding: 5px 5px 5px 5px ;
+    position: relative;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+}
+.imagemsection{
+
+    width: auto;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    position:static ;
+    right: -19px;
+    margin-bottom: 10px;
+}
+h1{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    left: -4px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+}
+footer {
+    background-color: #1a1a4d;
+    color: white;
+    height: 110px;
+    width: 100%;
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.imagefooter{
+    height: 20px;
+}
+p{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.faleconosco{
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    left: 106px;
+}
+.canais{
+    display: flex;
+    flex-direction: row;
+    position:relative;
+    align-items: center;
+    justify-content: flex-start;
+}
+.patrocinios{
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    left: 106px;
+}
+.logos{
+    display: flex;
+    justify-content: space-evenly;
+}
+.producedby{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: -98px;
+    position: relative;
+}
+.txt{
+    display: flex;
+    flex-direction: column;
+}
+.p{
+    font: 100px;
+}

@@ -1,0 +1,170 @@
+@charset "UFT-8";
+.maincontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.quadrado{
+    background-color: #1a1a4d;
+    width:400px;
+    height:385px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.titulo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+
+}
+#imagemlogo{
+    height: 37px;
+}
+input{
+    height: 41px;
+    width: 180px;
+    background-color: white;
+    color: #1a1a4d;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-inline-start: 10px;
+    border: #1a1a4d;
+    cursor: pointer;
+}
+.usuario{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    top:25px;
+    padding-inline-start: 10px;
+}
+.senha{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    top:40px;
+    padding-inline-start: 10px;
+  
+}
+.redefinirsenha{
+    height: 40px;
+    width: 180px;
+    color: white;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 45px ; 
+}
+.login{
+    height: 36px;
+    width:150px;
+    background-color:white ;
+    color: #1a1a4d;
+    position: relative;
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    top:72px;
+    border-radius: 20px;
+
+}
+.inscrevase{
+    height: 36px;
+    width:180px;
+    background-color:white ;
+    color: #1a1a4d;
+    position: relative;
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    top:82px;
+    border-radius: 20px;
+}
+header{
+    height: 60px;
+}
+footer {
+    background-color: #1a1a4d;
+    color: white;
+    height: 110px;
+    width: 100%;
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.imagefooter{
+    height: 20px;
+}
+p{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.faleconosco{
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    left: 106px;
+}
+.canais{
+    display: flex;
+    flex-direction: row;
+    position:relative;
+    align-items: center;
+    justify-content: flex-start;
+}
+.patrocinio{
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    left: 106px;
+}
+.logos{
+    display: flex;
+    justify-content: space-evenly;
+}
+.producedby{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: -98px;
+    position: relative;
+}
+.txt{
+    display: flex;
+    flex-direction: column;
+}
+.p{
+    font: 100px;
+}
+img{
+    height: 60px;
+}
+a{
+    text-decoration: none;
+}
+h1{
+    font-size: 35px;
+}

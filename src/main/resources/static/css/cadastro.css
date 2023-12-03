@@ -1,0 +1,232 @@
+@charset "UFT-8";
+@font-face {
+    font-family: poppins;
+    src: url(Poppins-ExtraLight.ttf) format(truetype); 
+}
+@font-face {
+    font-family: archivo;
+    src: url(ArchivoBlack-Regular.ttf) format(truetype);
+}
+.maincontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.quadrado{
+    background-color: #E1D8D8;
+    width:450px;
+    height:460px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    border:solid 2px #1a1a4d;
+}
+.titulo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #1a1a4d;
+    top: -21px;
+    position: relative;
+    font-family: 'archivo';
+    font-size: 20px;
+}
+#imagemlogo{
+    height: 37px;
+    left: 4px;
+    position: relative;
+}
+input{
+    height:41px ;
+    width: 300px ;
+    background-color: white;
+    color: #1a1a4d;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-inline-start: 10px;
+    border: solid 1px #1a1a4d;
+    cursor: pointer;
+}
+.nomecompleto{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    top:25px;
+}
+.nomedeusuario{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    top:40px;
+}
+.idade{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    top:55px;
+}
+.email{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    top:70px;
+}
+.senha{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    top:85px;
+}
+.redefinirsenha{
+    height: 40px;
+    width: 180px;
+    color: #1a1a4d;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 143px ; 
+}
+
+.inscrevase{
+    height: 36px;
+    width:190px;
+    background-color:white ;
+    color: #1a1a4d;
+    position: relative;
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    top:200px;
+    border-radius: 20px;
+    border: solid 2px #1a1a4d;
+    font-family: 'poppins';
+    font-weight: 25px;
+}
+.inscrevase:hover{
+    height: 36px;
+    width:190px;
+    background-color:white ;
+    color: #1a1a4d;
+    position: relative;
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    top:198px;
+    border-radius: 20px;
+    border: solid 2px #1a1a4d;
+}
+.p{
+    font-family: 'poppins';
+    font-weight: 25px;
+}
+header{
+    height: 60px;
+}
+footer {
+    background-color: #1a1a4d;
+    color: white;
+    height: 110px;
+    width: 100%;
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.imagefooter{
+    height: 20px;
+}
+p{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'poppins';
+    font-size: 13px;
+}
+.faleconosco{
+    width: 135px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    left: 106px;
+}
+.canais{
+    display: flex;
+    flex-direction: row;
+    position:relative;
+    align-items: center;
+    justify-content: flex-start;
+    font-family: 'poppins';
+    font-weight: 13px;
+}
+.patrocinio{
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    left: 106px; font-family: 'poppins';
+    font-weight: 13px;
+}
+.logos{
+    display: flex;
+    justify-content: space-evenly;
+}
+.producedby{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: -98px;
+    position: relative;
+    font-family: 'poppins';
+    font-weight: 13px;
+}
+.txt{
+    display: flex;
+    flex-direction: column;
+    font-family: 'poppins';
+    font-weight: 13px;
+}
+.p{
+    font-family: 'poppins';
+    font-weight: 15px;
+}
+img{
+    height: 60px;
+}
+.input{
+    top:10px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+a{
+    text-decoration: none;color: #1a1a4d;
+    font-family: 'poppins';
+    font-weight: 15px;
+}
+a:visited{
+    color: #1a1a4d;
+    font-family: 'poppins';
+    font-weight: 15px;
+}

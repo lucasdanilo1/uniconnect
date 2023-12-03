@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro - Atendimento ao Público</title>
+</head>
+<body>
+
+    <h2>Cadastro - Atendimento ao Público</h2>
+
+    <form action="processar_formulario.php" method="post">
+        <label for="nomeCompleto">Nome completo:</label>
+        <br>
+        <input type="text" id="nomeCompleto" name="nomeCompleto" required>
+        <br>
+
+        <label for="dataNascimento">Data de nascimento:</label>
+        <br>
+        <input type="date" id="dataNascimento" name="dataNascimento" required>
+        <br>
+
+        <label for="email">Email:</label>
+        <br>
+        <input type="email" id="email" name="email" required>
+        <br>
+
+        <label for="telefone">Telefone:</label>
+        <br>
+        <input type="tel" id="telefone" name="telefone" required>
+        <br>
+
+        <label for="sexo">Sexo:</label>
+        <br>
+        <select id="sexo" name="sexo" required>
+            <option value="masculino">Masculino</option>
+            <option value="feminino">Feminino</option>
+            <option value="outro">Outro</option>
+        </select>
+        <br>
+
+        <label for="atendimentoSolicitado">Atendimento solicitado:</label>
+        <br>
+        <textarea id="atendimentoSolicitado" name="atendimentoSolicitado" rows="4" required></textarea>
+        <br>
+
+        <label for="agendamento">Agendamento (data e hora disponível):</label>
+        <br>
+        <input type="datetime-local" id="agendamento" name="agendamento" required>
+        <br>
+
+        <input type="submit" value="Enviar">
+    </form>
+
+</body>
+</html>
