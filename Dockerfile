@@ -8,6 +8,6 @@ FROM openjdk:17-jdk-slim
 
 EXPOSE 8080
 
-COPY --from=build /target/uniconnect.jar uniconnect.jar
+COPY --from=build /target/uniconnect-0.0.1-SNAPSHOT.jar uniconnect-0.0.1-SNAPSHOT.jar
 
 ENTRYPOINT [ "java", "-jar", "uniconnect-0.0.1-SNAPSHOT.jar" ]
